@@ -5,10 +5,12 @@ import {listTools, listProyek} from "./data"
 function App() {
   return( 
   <>
-      <div className="hero grid md:grid-cols-1 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
+      <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1">
         <div>
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
-           <img src="/profile.jpg" alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
+           <img src="/react-porto1/assets/profile.jpg" 
+           alt="Profile"  
+           className="w-10 rounded-md" loading="lazy"/>
             <q>Kode yang indah , lahir dari ketekunan.😁</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-5">Hi, Saya Arya Siburian Mahasiswa Teknologi Informasi</h1>
@@ -30,7 +32,7 @@ function App() {
             </a>
           </div>
         </div>
-        <img src="/profile.jpg" alt="Hero Image" className="w-[500px] md:ml-auto rounded-4xl" laoding="lazy" />
+         <img src="/react-porto1/assets/profile.jpg"className="w-[500px] md:ml-auto rounded-4xl" laoding="lazy" />
       </div>
 
 
@@ -45,7 +47,9 @@ function App() {
           saya percaya bahwa Design dan fungsionalitas harus berjalan beriringan, sehingga setiap proyek yang saya kembangkan tidak hanya terlihat menarik tetapi juga memberikan pengalaman pengguna yang optimal
           </p>
           <div className="flex items-center justify-between">
-            <img src="/profile.jpg" alt="Hero Image" className="w-12 rounded-md sm:block hidden" loading="lazy"/>
+             <img src="/react-porto1/assets/profile.jpg" 
+             className="w-12 rounded-md sm:block hidden" 
+             loading="lazy"/>
             <div>
               <div>
                 <h1 className="text-4xl mb-1">
