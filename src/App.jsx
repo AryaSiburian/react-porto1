@@ -19,8 +19,15 @@ function App() {
           </p>
 
           <div className="mt-6 flex sm:gap-4 gap-2 mb-10">
-            <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"> Download CV <i className="ri-download-line ri-lg"></i> </a>
+            <a href="./assets/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
+              Download CV <i className="ri-download-line ri-lg"></i>
+            </a>
+
             <a href="#" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">Lihat Proyek <i class="ri-arrow-down-fill"></i>
+
             </a>
           </div>
         </div>
