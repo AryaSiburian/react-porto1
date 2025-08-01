@@ -56,7 +56,7 @@ function App() {
           data-aos-once="true"
         >
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}assets/profile.jpg`}
             alt="Hero Image"
             className="w-12 rounded-md sm:hidden"
             loading="lazy"
