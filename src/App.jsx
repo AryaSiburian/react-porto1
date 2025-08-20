@@ -1,5 +1,6 @@
 import { listTools, listProyek } from "./data";
 
+
 function App() {
   return (
     <>
@@ -24,12 +25,12 @@ function App() {
           </p>
           <div className="mt-6 flex sm:gap-4 gap-2 mb-10">
             <a
-              href="./react-porto1/cv.pdf"
+              href="/assets/cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
-              Download CV <i className="ri-download-line ri-lg"></i>
+              Download CV <i className="ri-download-line ri-lg"></i>.
             </a>
             <a
               href="#"
@@ -90,7 +91,7 @@ function App() {
         </div>
       </div>
 
-      {/* Tools Section */}
+      {/* Tools Section*/}
       <div className="tools mt-32">
         <h1
           className="text-4xl/snug font-bold mb-4"
@@ -105,6 +106,7 @@ function App() {
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
+          data-aos-once="true"
         >
           Berikut ada tools yg saya pakai untuk pembuatan website atau design
         </p>
@@ -149,7 +151,7 @@ function App() {
               data-aos-delay={proyek.dad}
               data-aos-once="true"
             >
-              <img src={proyek.gambar} alt="Proyek Image" loading="lazy" />
+              <img src={proyek.gambar} alt="Proyek Image" loading="#" />
               <div>
                 <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
                 <p className="text-base/loose mb-4">{proyek.desk}</p>
