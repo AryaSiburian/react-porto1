@@ -10,3 +10,14 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Description Project
+Website Portfolio ini dibangun menggunakan React.js, Tailwind CSS, dan Vite untuk menampilkan profil, pengalaman, serta showcase project dengan desain modern dan interaktif.
+
+ech Stack:
+
+1.React.js → Library utama untuk membangun UI.
+2.Tailwind CSS → Styling cepat dengan utility-first approach.
+3.Vite → Bundler modern untuk performa build yang lebih cepat.
+4.Framer Motion (opsional) → Animasi halus pada elemen UI.
