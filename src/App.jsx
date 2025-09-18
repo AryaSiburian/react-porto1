@@ -17,7 +17,7 @@ function App() {
             <q>Kode yang indah, lahir dari ketekunan.😁</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-5">
-            Hi, Saya Arya Siburian Mahasiswa Teknologi Informasi test
+            Hi, Saya Arya Siburian Mahasiswa Teknologi Informasi
           </h1>
           <p className="text-justify">
             Saya mempunyai ketertarikan dalam bidang Programming Web/app terutama pada pembuatan Website dan Design Seperti Poster, Website E-commerce, dll.
